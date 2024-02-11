@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+      <meta charset="utf-8">
+      <title>> jQuery-toepassing</title> 
+      <link rel="stylesheet" type="text/css" href="css25/stylesheet.css"> 
+    </head>
+     <body> 
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $("#knop").click(function() {
+        var naam = $("#idTekstveld" ).val();
+        window.alert("Bedankt voor de goede ondersteuning tijdens de lessen " + naam);
+        });
+        });
+      </script>
+      <header>
+        <div class="col-2"></div>
+      <form>
+        Wat is uw naam?
+        <input type="text" id="idTekstveld">
+        <input id="knop" name="knop" type="button"
+        value="Klik op deze knop">
+        </form>
+        <noscript>
+        Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+      </header> 
+      <br>
+      <br>
+      <div class="row">
+          <div class="col-12">  
+            <iframe src="https://www.weerplaza.nl/weerwidgets/regenradar/?SXNGdWxsV2lkdGg9ZmFsc2UmSXNIRD10cnVlJlpvb21MZXZlbD03LjAmTWF4V2lkdGg9MzIw"></iframe>
+            <h3>Beste Nikolai </h3>
+              <p>
+               Graag wil ik je vragen om op de knop te klikken.
+               Want hieronder zit een boodschap voor jou <br><br>
+               Groetjes Annemarie
+             </p>
+        </div>
+        </div>
+    </body>
+</html>
+        

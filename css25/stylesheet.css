@@ -1,0 +1,44 @@
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+   @media only screen and (max-width: 600px) {
+    [class*="col-"] 
+    float: left;
+    padding: 15px;
+    }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  body{
+    background: #659999;
+      /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #f4791f, #659999);  
+     /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #f4791f, #659999); 
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white}
+    
+    iframe{
+      frameborder="0" scrolling="no"
+       class="weerplazaWidget" 
+       src="https://www.weerplaza.nl/weerwidgets/regenradar/?SXNGdWxsV2lkdGg9ZmFsc2UmSXNIRD10cnVlJlpvb21MZXZlbD03LjAmTWF4V2lkdGg9MzIw" 
+       style="padding: 10px; 
+       width: 100% !important; 
+       max-width:320px !important; 
+       height: 698px !important; 
+       border: 1px solid rgb(244, 244, 244) !important; 
+       box-sizing: border-box !important;"
+    }
+
+  
